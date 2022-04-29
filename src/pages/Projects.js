@@ -5,75 +5,75 @@ import image_product from '../pics/Product-landing-page.png';
 function Projects() {
     return (
         <div>
-            <section id="projects" class="projects">
-            <h2 class="project-header">These are some of my projects</h2>
+            <section id="projects" className="projects">
+            <h2 className="project-header">These are some of my projects</h2>
             
-            <div class="projects-grid">
+            <div className="projects-grid">
                 
-                <a class="project-tile"
+                <a className="project-tile"
                 href="https://codepen.io/alchaize/full/xxRmwQP"
                 target="_blank"
                 rel="noreferrer"
                 >
-                <div class="project-image">
+                <div className="project-image">
                     <img
-                    class="project-image"
+                    className="project-image"
                     src={image_product}
                     alt="project"/>
                 </div>
-                <p class="project-name">
+                <p className="project-name">
                     Project Landing Page
                 </p>
                 </a>
                 
-                <a class="project-tile"
+                <a className="project-tile"
                 href="https://codepen.io/alchaize/full/wvoQrvr"
                 target="_blank"
                 rel="noreferrer"
                 >
-                <div class="project-image">
+                <div className="project-image">
                     <img
-                class="project-image"
+                className="project-image"
                 src={image_survey}
                 alt="project"
                     />
                 </div>
-                <p class="project-name">
+                <p className="project-name">
                     Survey Form
                 </p>
                 </a>
                 
-                <a class="project-tile"
+                <a className="project-tile"
                 href="https://codepen.io/alchaize/full/GRNzQZp"
                 target="_blank"
                 rel="noreferrer"
                 >
-                <div class="project-image">
+                <div className="project-image">
                     <img
-                class="project-image"
+                className="project-image"
                 src={image_docs}
                 alt="project"
                     />
                 </div>
-                <p class="project-name">
+                <p className="project-name">
                     JavaScript Documentation
                 </p>
                 </a>
                 
                 
-                <a class="project-tile"
+                <a className="project-tile"
                 href="https://codepen.io/alchaize/full/jOVQwYb"
                 target="_blank"
                 rel="noreferrer"
                 >
-                <div class="project-image">
+                <div className="project-image">
                     <img
-                class="project-image"
+                className="project-image"
                 src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/tribute.jpg"
                 alt="project"
                     />
                 </div>
-                <p class="project-name">
+                <p className="project-name">
                     Tribute Page
                 </p>
                 </a>

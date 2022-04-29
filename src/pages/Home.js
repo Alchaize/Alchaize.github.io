@@ -1,4 +1,3 @@
-import '../App.css';
 import React from 'react';
 
 import Projects from './Projects';
@@ -9,9 +8,9 @@ class Home extends React.Component {
   render() {
     return (
       <div>
-        <section id="welcome-section" class="welcome-section">
-          <h1 class="introduction">Hi, I'm Alexander</h1>
-          <h2 class="sub-introduction">I'm learning web development</h2>
+        <section id="welcome-section" className="welcome-section">
+          <h1 className="introduction">Hi, I'm Alexander</h1>
+          <h2 className="sub-introduction">I'm learning web development</h2>
         </section>
         
         <Projects />

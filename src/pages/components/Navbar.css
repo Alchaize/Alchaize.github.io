@@ -1,0 +1,33 @@
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--main-blue);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    height: 70px;
+}
+
+.nav-list {
+    display: flex;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+}
+
+.nav-list a {
+    display: block;
+    font-size: 1.3rem;
+    transition: border-bottom 0.2s ease-out;
+    height: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 0px solid var(--main-red);
+}
+
+.nav-list a:hover {
+    transition: border-bottom 0.2s ease-in;
+    border-bottom: 4px solid var(--main-red);
+}

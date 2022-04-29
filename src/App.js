@@ -1,28 +1,3 @@
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <Router>
-//         <div>
-//           <nav>
-//             <ul id="navigation">
-//               <li>
-//                 <Link to="/">Home</Link>
-//               </li>
-//               <li>
-//               <Link to="/about">About</Link>
-//               </li>
-//             </ul>
-//           </nav>
-//         </div>
-//         <Route exact path="/" element={<Home />}></Route>
-//         <Route exact path="/about" element={<About />}></Route>
-//       </Router>
-//     </div>
-//         );
-// }
-
-
 import './App.css';
 import React from 'react';
 import { Route, Routes } from "react-router-dom";
