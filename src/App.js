@@ -1,25 +1,51 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+// function App() {
+//   return (
+//     <div className="App">
+//       <Router>
+//         <div>
+//           <nav>
+//             <ul id="navigation">
+//               <li>
+//                 <Link to="/">Home</Link>
+//               </li>
+//               <li>
+//               <Link to="/about">About</Link>
+//               </li>
+//             </ul>
+//           </nav>
+//         </div>
+//         <Route exact path="/" element={<Home />}></Route>
+//         <Route exact path="/about" element={<About />}></Route>
+//       </Router>
+//     </div>
+//         );
+// }
+
+
+import './App.css';
+import React from 'react';
+import { Route, Routes } from "react-router-dom";
+import About from './pages/About';
+import Home from './pages/Home';
+import Navbar from './pages/components/Navbar';
+import Game from './pages/components/Game';
+import NoPage from './pages/NoPage';
+
+class App extends React.Component {
+  render() {
+      return (
+        <div className="App">
+          <Navbar />
+          <Routes>
+            <Route exact path="/" element={<Home />}></Route>
+            <Route exact path="/about" element={<About />}></Route>
+            <Route exact path="/game" element={<Game />}></Route>
+            <Route exact path="*" element={<NoPage />}></Route>
+          </Routes>
+        </div>
+      );
+  }
 }
 
 export default App;
