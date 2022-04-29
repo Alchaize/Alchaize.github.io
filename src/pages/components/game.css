@@ -1,10 +1,9 @@
-
-ol, ul {
-    padding-left: 30px;
-}
-
 .status {
     margin-bottom: 10px;
+}
+
+ol.movesList {
+    padding-left: 0px;
 }
 
 .kbd-navigation .square:focus {
@@ -66,7 +65,7 @@ ol, ul {
 }
 
 .btn {
-    background-color: rgb(190, 59, 65);
+    background-color: var(--main-red);
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
     color: white;
     border-radius: 3px;
@@ -115,4 +114,9 @@ ol, ul {
 
 #emphazised {
     font-weight: bold;
+}
+
+div.game-status {
+    font-size: 3em;
+    color: var(--main-red);
 }
