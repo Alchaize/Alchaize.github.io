@@ -1,7 +1,9 @@
 import React from 'react';
 
+import './Home.css'
+
 import Projects from './Projects';
-import Contact from './Contact';
+import Contact from '../components/Contact';
 
 
 class Home extends React.Component {

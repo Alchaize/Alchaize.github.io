@@ -3,8 +3,8 @@ import React from 'react';
 import { Route, Routes } from "react-router-dom";
 import About from './pages/About';
 import Home from './pages/Home';
-import Navbar from './pages/components/Navbar';
-import Game from './pages/components/Game';
+import Navbar from './components/Navbar';
+import Game from './pages/Game';
 import NoPage from './pages/NoPage';
 
 class App extends React.Component {
