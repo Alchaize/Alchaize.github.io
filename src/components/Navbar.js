@@ -14,9 +14,6 @@ function Navbar() {
                 <li>
                     <Link to="/#contact">Contact</Link>
                 </li>
-                <li>
-                    <Link to="/game">Game</Link>
-                </li>
             </ul>
         </nav>
     )
