@@ -4,10 +4,10 @@ ol, ul {
 
 .board {
     background: var(--main-white);
-    padding: 20px;
+    padding: 25px;
     border: 1px solid #999;
     border-radius: 3px;
-    box-shadow: 5px 5px 5px #999;
+    box-shadow: 5px 5px 5px black;
     font: 14px "Century Gothic", Futura, sans-serif;
     margin: 20px;
 }
