@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import './Projects.css';
 
 import image_survey from '../pics/Survey-Form.png'
-import image_docs from '../pics/java-thing.png'
+
 import image_product from '../pics/Product-landing-page.png';
 import image_tictactoe from '../pics/tictactoe.png';
 
@@ -11,7 +11,7 @@ function Projects() {
     return (
         <div>
             <section id="projects" className="projects">
-            <h2 className="project-header">These are some of my projects</h2>
+            <h2 className="project-header">These are some stuff I have made</h2>
             
             <div className="projects-grid">
                     
@@ -59,44 +59,10 @@ function Projects() {
                     Survey Form
                 </p>
                 </a>
-                
-                <a className="project-tile"
-                href="https://codepen.io/alchaize/full/GRNzQZp"
-                target="_blank"
-                rel="noreferrer"
-                >
-                <div className="project-image">
-                    <img
-                className="project-image"
-                src={image_docs}
-                alt="project"
-                    />
-                </div>
-                <p className="project-name">
-                    JavaScript Documentation
-                </p>
-                </a>
-                
-                
-                <a className="project-tile"
-                href="https://codepen.io/alchaize/full/jOVQwYb"
-                target="_blank"
-                rel="noreferrer"
-                >
-                <div className="project-image">
-                    <img
-                className="project-image"
-                src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/tribute.jpg"
-                alt="project"
-                    />
-                </div>
-                <p className="project-name">
-                    Tribute Page
-                </p>
-                </a>
+            
             </div>
-            <a id="profile-link" href="https://codepen.io/alk4de" target="_blank" rel="noreferrer">
-                See all projects
+            <a id="profile-link" href="https://codepen.io/alchaize/" target="_blank" rel="noreferrer">
+                See the rest on Codepen
             </a>
             </section>
         </div>
