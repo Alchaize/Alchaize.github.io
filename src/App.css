@@ -32,7 +32,7 @@ a {
   padding-top: 8rem;
   justify-self: center;
   font-size: 4rem;
-
+  color: var(--main-white);
 }
 
 .contact-links {
