@@ -11,7 +11,7 @@ class App extends React.Component {
   render() {
       return (
         <div className="App">
-          <Navbar />
+          <Navbar/>
           <Routes>
             <Route exact path="/" element={<Home />}></Route>
             <Route exact path="/about" element={<About />}></Route>
